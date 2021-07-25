@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Restaurant</title>
+</head>
+<body>
+   
+    <header class="glassmorphism">
+        <img src="./Images/leaf.png" alt="" srcset="" class="leaf">
+        <nav class="header__nav">
+            
+                <img src="./Icons/clipart23227.png" alt="" srcset="" class="header__logo">
+            <ul class="nav__items">
+                <li class="nav__items_link"><a href="">Home</a></li>
+                <li class="nav__items_link"><a href="#menuID">Menu</a></li>
+                <li class="nav__items_link"><a href="#cartID">Cart</a></li>
+                <li class="nav__items_link"><a href="#contactID">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="land">
+            <div class="tagline">
+                <h2>Ammini</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint officia, aperiam doloremque accusamus quae, libero dignissimos deleniti ad maiores excepturi dolor iste consectetur enim!</p>
+                <a href="#cartID"><Button class="btn btn-header glassmorphism">Order Now &rarr;</Button></a>
+            </div>
+            <div class="land__img">
+                <img src="./Images/dish1.png" alt="">
+            </div>
+        </div>
+     </header>
+
+    
+     <section class="menu container glassmorphism" id="menuID">
+        <div class="menu_header">
+            <img src="./Icons/menu.png" alt="" srcset="">
+            <h2>Menu</h2>
+        </div>
+        <div class="menu_items">
+            <div class="card glassmorphism">
+                <div class="pad"></div>
+                <img src="./Images/dish.png" alt="" srcset="" class="item__img">
+                <h2>Sweet Prawn</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem expedita hic dolorum aspernatur rem</p>
+                <h2 class="item_price">₹350</h2>
+                <button class="btn btn-buy glassmorphism">BUY</button>
+            </div>
+            <div class="card glassmorphism">
+                <div class="pad"></div>
+                <img src="./Images/dish2.png" alt="" srcset="" class="item__img">
+                <h2>Salty Fish</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem expedita hic dolorum aspernatur rem</p>
+                <h2 class="item_price">₹450</h2>
+                <button class="btn btn-buy glassmorphism">BUY</button>
+            </div>
+            <div class="card glassmorphism">
+                <div class="pad"></div>
+                <img src="./Images/dish1.png" alt="" srcset="" class="item__img">
+                <h2>Spongy Fish</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem expedita hic dolorum aspernatur rem</p>
+                <h2 class="item_price">₹250</h2>
+                <button class="btn btn-buy glassmorphism">BUY</button>
+            </div>
+        </div>
+        <button class="btn btn-load">LOAD MORE &#8595;</button>
+     </section>
+     <section class="cart container glassmorphism" id="cartID">
+        <div class="cart__header">
+            <img src="./Icons/cart.png" alt="" class="icon__cart">
+            <h2>Shopping Cart</h2>
+        </div>
+        <div class="cartItems">
+           
+            <div class="cartItem_items">
+                <span class="price">Price</span>
+                <div class="items">
+                    <img src="./Images/dish2.png" alt="" srcset="">
+                    <div class="item_desc">
+                        <h2>Sweet Prawn Mixed Veg</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis beatae numquam praesentium architecto autem quae. Recusandae sit molestiae dolore voluptas provident. Pariatur accusamus</p>
+                    </div>
+                    <div class="price_block">
+                        <h2>₹350</h2>
+                        <div class="btn btn_remove">Remove</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing_block">
+                <div class="subtotal glassmorphism">Subtotal : <span> ₹350</span></div>
+                <button class="btn glassmorphism btn-proceed">Proceed &rarr;</button>
+            </div>
+        </div>
+        <img src="./Images/leaf.png" class="leaf" alt="" srcset="">
+     </section>
+     <section class="contact container glassmorphism" id="contactID">
+         <div class="contact__header">
+             <img src="./Icons/contact.png" alt="">
+             <h2>Contact</h2>
+         </div>
+         <div class="form">
+            <form action="" class="form_box">
+                <div class="label">
+                <label for="nameID" >Name :</label>
+                <input type="text" value="" placeholder="Enter Your Name" id="nameID" class="glassmorphism input">
+                </div>
+                <div class="label">
+                    <label for="emailID">Email :</label>
+                    <input type="email" value="" placeholder="Enter Your Email" id="emailID" class="glassmorphism input">
+                </div>
+               <div class="label">
+                <label for="messageID">Message :</label>
+                <input type="textfield" value="" placeholder="Enter Your Message" id="messageID" class="glassmorphism input input-msg">
+               </div>
+              
+                <button class="btn btn-submit">Submit</button>
+             </form>
+             <div class="social">
+                <div class="box_email">
+                    <h2>Email Me</h2>
+                    <p>rafikulalam2000@gmail.com</p>
+                </div>
+                <div class="box_social">
+                   <h2>Follow Me</h2>
+                  <div class="social_link">
+                      <ul>
+                          <li>
+                              <a href=""><img src="./Icons/facebook.png" alt="" srcset=""></a>
+                          </li>
+                          <li>
+                           <a href=""><img src="./Icons/github.png" alt="" srcset=""></a>
+                       </li>
+                       <li>
+                           <a href=""><img src="./Icons/linkedIN.png" alt=""></a>
+                       </li>
+                      </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+        
+     </section>
+</body>
+</html>
