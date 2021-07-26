@@ -3,15 +3,19 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    cursor: url(./Icons/cursor.svg),pointer;
+    
 }
 a{
     text-decoration: none;
+    
 }
 body{
     background: linear-gradient(45deg, #d53369 0%, #daae51 100%);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: contain;
+    
     /* height: 100vh; */
     
 }
@@ -82,6 +86,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 .tagline h2{
     font-size: 5rem;
