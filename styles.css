@@ -8,6 +8,7 @@
 }
 a{
     text-decoration: none;
+    cursor: url(./Icons/pointer_cursor.svg),pointer;
     
 }
 body{
@@ -131,7 +132,7 @@ header{
     color: rgb(112, 110, 110);
     padding: 10px;
     box-shadow: 2px 2px 5px rgba(75, 74, 74, 0.555);
-    cursor: pointer;
+    cursor: url(./Icons/pointer_cursor.svg),pointer;
     transition: all .3s ease-in-out;
 }
 .btn:hover{
